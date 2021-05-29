@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src=""></script>
 </head>
 <body>
-    
+    <!--Quiz Rules-->
+    <div class="quiz_rules">
+        <div class="rules_title">
+            <span>Before we begin</span>
+        </div>
+        <div class="rules_list">
+            <ul>
+                <li>You will have 3 minutes to complete the quiz</li>
+                <li>If you do not answer all questions before time is up, the quiz will end and you will be presented with your final score</li>
+                <li>Once you have submitted an answer, it cannot be changed</li>
+                <li>if you answer incorrectly, 5 seconds will be subtracted from the timer</li>
+                <p>Best of luck, click the button whenever you are ready to begin</p>
+            </ul>
+        </div>
+        <div class="begin_button"><button>Begin Quiz</button></div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="timer">
+                <div class="time_rem">Time Remaining</div>
+                <div class="timer_sec">180</div>
+            </div>
+        </header>
+        <section>
+            <div class="questions">
+
+            </div>
+            <div class="answers">
+
+            </div>
+        </section>
+        <footer>
+            <div class="total">
+
+            </div>
+            <button class="next_button">Next</button>
+        </footer>
+    </div>
+
+    <div class="results">
+        <div class="congrats">Congratulations on completing the quiz!</div>
+        <div class="score">
+
+        </div>
+        <div class="results">
+            <p>Enter Initials</p>
+            <input type="text">
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+
+    <script src="./assets/questions.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
