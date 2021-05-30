@@ -1,2 +1,0 @@
-# CodeQuiz
-Project 4
