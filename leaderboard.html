@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboards</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="leaderboard" class="flex-center flex-column">
+            <h3 class="yourScore" id="yourScores">0</h3>
+            <form class="leaderboard-form-container">
+                <h1 id="leaderboard-text">Your Score</h1>
+                <input type="text" name="name" id="initials" placeholder="Enter your initials here">
+                <button class="btn" id="scoreBtn" type="submit" onclick="saveScore(event)">Save</button>
+            </form>
+            <a href="./index.html" class="btn">Retry</a>
+        </div>
+    </div>
+    <script src="./assets/leaderboard.js"></script>
+</body>
+</html>
