@@ -20,8 +20,6 @@ A quiz I created to put my javascript skills to teh test.It is a timed quiz that
     CSS
     Javascript
 
-Link to published site is [here](https://ba1bers.github.io/CodeQuiz/)
-
 ## Website Screenshots
 ![Home](./assets/screenshots/quizhome.PNG)
 ![Question1](./assets/screenshots/quizquestion.PNG)
