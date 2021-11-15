@@ -1,14 +1,26 @@
 # CodeQuiz
 
-## Purpose
+Link to deployed site [here](https://brent-albers-portfolio.herokuapp.com/)
 
-To create a timed quizz to put my javascript skills to the test
+## Table of Contents:
+  * [Description](#description)
+  * [Technologies Used](#technologiesUsed)
+  * [Screenshots](#screenshots)
+  * [Credits](#credits)
+  * [Email](#email)
+  * [GitHub](#github)
 
-## Installation
 
-[You can pull the link to my portfolio from here:](https://github.com/BA1bers/CodeQuiz.git)
+## Description 
 
-[My portfolio is published here:](https://ba1bers.github.io/CodeQuiz/)
+A quiz I created to put my javascript skills to teh test.It is a timed quiz that keeps track of your score. For every question you get wrong, time is deducted from the timer
+
+## Technologies Used:
+    HTML
+    CSS
+    Javascript
+
+Link to published site is [here](https://ba1bers.github.io/CodeQuiz/)
 
 ## Website Screenshots
 ![Home](./assets/screenshots/quizhome.PNG)
@@ -16,10 +28,12 @@ To create a timed quizz to put my javascript skills to the test
 ![Question2](./assets/screenshots/quizquestion2.PNG)
 ![Score](./assets/screenshots/score.PNG)
 
-## Built with
-    * Javascript
-    * HTML
-    * CSS
-## Made by:
+## Credits
 
 Brent Albers
+
+## Email
+Have any questions? feel free to email me at brent.albers@yahoo.com. 
+
+## GitHub
+Follow me on github where you can also ask me questions here at https://github.com/BA1bers.
